@@ -1,0 +1,102 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins, sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(270deg,#0f2027,#203a43,#2c5364);
+background-size:600% 600%;
+animation:bgMove 15s infinite;
+color:white;
+text-align:center;
+}
+
+@keyframes bgMove{
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+}
+
+.container{
+max-width:900px;
+padding:40px;
+}
+
+.title{
+font-size:40px;
+margin-bottom:20px;
+}
+
+#typing{
+color:#00f7ff;
+text-shadow:0 0 10px #00f7ff;
+}
+
+.subtitle{
+opacity:0.8;
+margin-bottom:40px;
+}
+
+.domains h2,
+.services h2,
+.contact h2{
+margin-bottom:15px;
+}
+
+.domain-grid{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:12px;
+margin-bottom:30px;
+}
+
+.domain-grid span{
+background:#ffffff10;
+padding:10px 18px;
+border-radius:8px;
+border:1px solid #ffffff20;
+}
+
+.services p{
+margin-bottom:15px;
+}
+
+.work-btn{
+display:inline-block;
+padding:10px 20px;
+background:#00f7ff;
+color:black;
+border-radius:6px;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
+}
+
+.work-btn:hover{
+transform:scale(1.05);
+box-shadow:0 0 15px #00f7ff;
+}
+
+.contact{
+margin-top:40px;
+}
+
+.contact a{
+display:block;
+margin:8px;
+color:#00f7ff;
+text-decoration:none;
+}
+
+footer{
+margin-top:40px;
+opacity:0.6;
+font-size:14px;
+}
