@@ -24,7 +24,7 @@ Alive Services is a collection of web utilities and tools, hosted on Vercel. Fas
 
 ## Live
 
-🔗 **[alive-services-drab.vercel.app](https://alive-services-drab.vercel.app)**
+🔗 **[alive-services.vercel.app](https://alive-services.vercel.app)**
 
 ## Author
 
