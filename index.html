@@ -4,33 +4,55 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Domain Services by Alive</title>
+<title>Alive — Domain Services</title>
 
 <link rel="stylesheet" href="style.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
 <body>
 
-<div class="container">
+<div class="bg-grid" aria-hidden="true"></div>
 
+<header class="nav">
+<div class="nav-inner">
+<a href="#" class="logo">ALIVE<span class="dot">.</span></a>
+<nav class="links">
+<a href="#domains">Domains</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+</nav>
+</div>
+</header>
+
+<main class="container">
+
+<section class="hero">
+<p class="eyebrow">// DOMAIN SERVICES</p>
 <h1 class="title">
-This Domain is Managed by
-<span id="typing"></span>
+This Domain is Managed by<br>
+<span id="typing"></span><span class="cursor"></span>
 </h1>
-
 <p class="subtitle">
-This page is registered and managed by Alive.  
-If you want your own domain or website at **cheap prices**, contact me below.
+Registered and managed by Alive. Want your own domain or website at
+<strong>cheap prices</strong>? Get in touch below.
 </p>
+<div class="hero-actions">
+<a class="btn btn-solid" href="#contact">Get Started</a>
+<a class="btn btn-outline" href="https://apexdev.vercel.app" target="_blank" rel="noopener">View Our Work ↗</a>
+</div>
+</section>
 
-<div class="domains">
-<h2>Available Domain Extensions</h2>
-
+<section id="domains" class="section reveal">
+<div class="section-head">
+<span class="num">01</span>
+<h2>Available Extensions</h2>
+<span class="line"></span>
+</div>
 <div class="domain-grid">
-
 <span>.com</span>
 <span>.info</span>
 <span>.xyz</span>
@@ -38,49 +60,61 @@ If you want your own domain or website at **cheap prices**, contact me below.
 <span>.me</span>
 <span>.net</span>
 <span>.store</span>
-
 </div>
+</section>
+
+<section id="services" class="section reveal">
+<div class="section-head">
+<span class="num">02</span>
+<h2>What We Do</h2>
+<span class="line"></span>
 </div>
-
-<div class="services">
-
-<h2>Services</h2>
-
-<p>
-• Domain Registration  
-• Static Websites  
-• Full Functional Websites  
-</p>
-
-<p>
-Check our work here
-</p>
-
-<a class="work-btn" href="https://apexdev.vercel.app" target="_blank">
-Visit Apex Dev
-</a>
-
+<div class="cards">
+<article class="card">
+<span class="card-num">01</span>
+<h3>Domain Registration</h3>
+<p>Grab your perfect domain at the lowest price with all major extensions available.</p>
+</article>
+<article class="card">
+<span class="card-num">02</span>
+<h3>Static Websites</h3>
+<p>Fast, clean and lightweight static sites — perfect for portfolios and landing pages.</p>
+</article>
+<article class="card">
+<span class="card-num">03</span>
+<h3>Full Functional Websites</h3>
+<p>Complete dynamic websites with backend, built and deployed end to end.</p>
+</article>
 </div>
+</section>
 
-<div class="contact">
-
+<section id="contact" class="section reveal">
+<div class="section-head">
+<span class="num">03</span>
 <h2>Contact / Socials</h2>
-
-<a href="https://instagram.com/rudealive" target="_blank">Instagram</a>
-
-<a href="https://github.com/alivelyyy" target="_blank">Github</a>
-
-<a href="https://discord.gg/gGFe6GyrPq" target="_blank">Discord Server</a>
-
-<a href="https://support.encorebot.me" target="_blank">Support Website</a>
-
+<span class="line"></span>
 </div>
+<div class="contact-grid">
+<a href="https://instagram.com/rudealive" target="_blank" rel="noopener">
+Instagram <span>↗</span>
+</a>
+<a href="https://github.com/alivelyyy" target="_blank" rel="noopener">
+Github <span>↗</span>
+</a>
+<a href="https://discord.gg/gGFe6GyrPq" target="_blank" rel="noopener">
+Discord Server <span>↗</span>
+</a>
+<a href="https://support.encorebot.me" target="_blank" rel="noopener">
+Support Website <span>↗</span>
+</a>
+</div>
+</section>
 
 <footer>
 © 2026 Alive — Domain Services
 </footer>
 
-</div>
+</main>
 
 <script src="script.js"></script>
 
