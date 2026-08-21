@@ -6,6 +6,6 @@ Minimal black & white landing page for Alive's domain and web services.
 
 HTML, CSS, JavaScript — hosted on Vercel.
 
-## Live — https://alive-services-drab.vercel.app
+## Live — https://alive-services.vercel.app
 
 © 2026 Alive
